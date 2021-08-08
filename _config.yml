@@ -49,18 +49,18 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: s-shamil# your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+scholar_userid: oK3jPlYAAAA # your Google Scholar ID
+orcid_id: 0000-0001-5556-1145 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://cse.uiu.ac.bd/profiles/shamil-md-salman/ # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
