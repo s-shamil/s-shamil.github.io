@@ -56,9 +56,9 @@ linkedin_username: # your LinkedIn user name
 scholar_userid: oK3jPlYAAAAJ # your Google Scholar ID
 orcid_id: 0000-0001-5556-1145 # your ORCID ID
 medium_username: # your Medium username
-quora_username: # your Quora username
+quora_username: https://www.linkedin.com/in/salman-shamil-980833150/ # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: https://www.researchgate.net/profile/Md-Salman-Shamil # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: https://cse.uiu.ac.bd/profiles/shamil-md-salman/ # work page URL
 keybase_username: # your keybase user name
@@ -184,7 +184,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
