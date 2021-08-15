@@ -27,10 +27,6 @@ nav: true
 		<h4>CSE 3522: Database Management Systems Laboratory [Summer 2021]</h4>
 		<p>Laboratory works based on Implementation and Manipulation of Relational Database with Case Study, Basic Search Syntax, Pattern Matching and Logic in SQL, SQL Joining, Aggregate Functions, Grouping, Ordering and Set Operations, SubQueries in SQL, Database Security. Also a project work is included.</p>
 	</li>
-		<li>
-		<h4>CSE 429: Digital System Design [Spring 2021]</h4>
-		<p>Designing I/O system; I/O devices; Designing Microprocessor based system with interfacing chips; Programmable peripheral interface (interface to A/D and D/A converter); Keyboard/display interface; Programmable timer; Programmable interrupt controller, DMA controller; Design using MSI and LSI components; Design of memory subsystem using SRAM and DRAM; Design of various components of a computer: ALU, memory and control unit: hardwired and micro programmed; Microprocessor based designs; Computer BUS standards; Design special purpose controllers.</p>
-	</li>
 	<li>
 		<h4>CSE 429: Digital System Design [Spring 2021]</h4>
 		<p>Basic components of a computer system; Design of processing unit: ALU, Comparator, Accumulator, Shifter, Multiplier; Hardware multiplication: Booth and Modified Booth algorithm; Design of control unit: hardwired and microprogrammed; Simple-As-Possible (SAP) computer: SAP-1, selected concepts from SAP-2 and SAP-3 (jump, call, return, stack, push and pop); Designing microprocessor based system; Hardware Interfacing with Intel 8086 microprocessor: programmable peripheral interface, programmable interrupt controller, programmable timer, keyboard and display interface.</p>
