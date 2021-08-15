@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p></p>
+    <p> </p>
 
 
 news: false  # includes a list of news items
@@ -21,3 +21,5 @@ Hi, I am a fresh graduate with Bachelor of Science from Department of Computer S
 I have an immense interest in exploring and working on exciting research areas of modern computer science. My research experience includes application of deep learning in the fields of computer vision and bioinformatics, agent-based modeling for infectious disease and analyzing abelian borders of strings. I am also interested to work on problems regarding distributed computing systems.
 
 During my undergrad, I started to work with Professor <a href="http://msrahman.buet.ac.bd/">M. Sohel Rahman</a>. I express my gratitude to him for introducing me to research and also for supervising my thesis work.
+
+<p style="font-size:18px; font-family:'Libre Baskerville'"><i><b>P.S. </b>You can use "Salman" only as my first name</i></p>
