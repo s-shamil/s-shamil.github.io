@@ -17,7 +17,7 @@ footer_text: >
 icon: 🎲 # Emoji favicon
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -52,11 +52,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: s-shamil # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+linkedin_username: salman-shamil-980833150 # your LinkedIn user name
 scholar_userid: oK3jPlYAAAAJ # your Google Scholar ID
 orcid_id: 0000-0001-5556-1145 # your ORCID ID
 medium_username: # your Medium username
-quora_username: https://www.linkedin.com/in/salman-shamil-980833150/ # your Quora username
+quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: https://www.researchgate.net/profile/Md-Salman-Shamil # your profile on ResearchGate
 blogger_url: # your blogger URL
@@ -75,7 +75,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
+blog_name: # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -184,7 +184,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       true  # enables displaying social links in the
+enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
