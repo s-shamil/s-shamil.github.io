@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: /assets/img/1.jpg
-importance: 3
-category: fun
+title: My C Compiler
+description: A compiler written using Flex and Bison for a subset of C language as part of coursework.
+importance: 4
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

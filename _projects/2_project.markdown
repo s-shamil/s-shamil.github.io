@@ -1,8 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
+title: ML-based Credit Risk Prediction
+description: An application for commercial banks to use machine learning for credit risk prediction.
 importance: 2
 category: work
 ---

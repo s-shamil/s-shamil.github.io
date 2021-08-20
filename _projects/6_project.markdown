@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: DoS Attack to DNS Server Using Spoofed IP address
+description: A project as part of Computer Security coursework - using C++, Python as programming languages and setting up ”Simple DNS Plus” as the DNS server.
+importance: 5
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

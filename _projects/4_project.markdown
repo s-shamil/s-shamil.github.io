@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Internet Download Manager
+description: A simple application written in Java to manage multiple downloads simultaneously and to keep track of unfinished downloads for resuming later.
+importance: 6
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

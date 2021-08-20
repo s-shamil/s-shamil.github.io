@@ -1,9 +1,7 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: /assets/img/7.jpg
-redirect: https://unsplash.com
+title: Buy, Sell and Donate Books
+description: An application to manage collection and distribution of booksamong the users of the system using Java and PL/SQL.
 importance: 3
 category: work
 ---
