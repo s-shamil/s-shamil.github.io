@@ -6,72 +6,25 @@ importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Issuing and processing loans is a major revenue generator for financial organizations. But the assessment of credit risk is very crucial for these organizations for reducing their capital loss. This project aims at predicting credit risk at the time of loan granting process through machine learning based approach. Here we have created a system which can be incorporated with the existing banking systems to improve their loan management process. I worked on this software project in a group of three during my undergrad for a 1.5 credit sessional course [CSE408: Software Development].
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/bankproject_contextO.png' | relative_url }}" alt="" title="Context Diagram of the project"/>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+This project aims at solving the problem of predicting trustworthiness of a client who has applied for a loan. We also provide a banking software system integrating our machine learning model to it. Our system is hosted as a website and it has two classes of users.
+<ul>
+    <li>Clients: Clients have active accounts in the bank and uses the website to apply for loan.</li>
+    <li>Employees: There are three types of employees who process the loan application. Form reviewer reviews the application primarily, Negotiator negotiates about loan amount with the client and Client Relations Manager verifies the information provided by the client and finalizes the loan.</li>
+</ul>
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Primary features of the system are:
+<ul>
+    <li>Providing basic functionalities on the website for clients and employees.</li>
+    <li>A machine learning model that can be trained with previous data and used to predict trustworthiness of new loan applicants.</li>
+    <li>Availability of credit risk prediction to the appropriate employees for better assessment of an application.</li>
+    <li>Additional features like messaging between users to make communication easier, visualization of data for employees for better understanding of the trend in loan applications, necessary information about the bank and branches etc.</li>
+</ul>
 
+Our project focuses on the features of a banking software that are needed for loan processing. From the application stage at user end to the finalization stage at employee end. This project does not aim to implement ordinary banking software to provide general facilities. It rather includes the necessary and desirable features for loan granting process.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+<h4><b>Codes, documentation, design diagrams and user manual are available on github at <a href="https://github.com/s-shamil/Credit-Risk-Prediction-System-for-Banks">this link</a>.</b></h4>
