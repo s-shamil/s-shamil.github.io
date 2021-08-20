@@ -6,7 +6,7 @@ description: Lecturer at Department of CSE, <br /> United International Universi
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_small.jpg
   address: >
     <p> </p>
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: CRISPR/Cas9 on-target knockout efficacy prediction
+description: A project under Machine Learning Sessional course using traditional machine learning with sequence-based properties and deep learning techniques.
 img: /assets/img/12.jpg
 importance: 1
 category: work
