@@ -8,20 +8,24 @@ nav: true
 
 <ul>
 	<li>
-		<h4>CSE 2233: Theory of Computation [Summer 2021]</h4>
-		<p>Finite Automata: Deterministic finite automata, Non-deterministic finite automata, equivalence and conversion of deterministic and non-deterministic finite automata, pushdown automata. Context free language, context frees grammar. Turing machines: basic machines, configuration, computing with turning machine, combining turning machines.</p>
-	</li>
-	<li>
-		<h4>CSE 423: Simulation and Modeling [Summer 2021]</h4>
+		<h4>CSE 423: Simulation and Modeling [Fall 2021, Summer 2021]</h4>
 		<p>Simulation methods, model building, random number generator, statistical analysis of results, validation and verification techniques; Digital simulation of continuous system; Simulation and analytical methods for analysis of computer systems and practical problems in business and practice; Introduction to simulation packages.</p>
 	</li>
 	<li>
-		<h4>CSI 424: Simulation & Modeling Laboratory [Summer 2021, Spring 2021]</h4>
+		<h4>CSI 424: Simulation & Modeling Laboratory [Fall 2021, Summer 2021, Spring 2021]</h4>
 		<p>Laboratory work based on CSI 423.</p>
 	</li>
 	<li>
-		<h4>CSE 4510: Operating Systems Laboratory [Summer 2021]</h4>
+		<h4>CSE 4510: Operating Systems Laboratory [Fall 2021, Summer 2021]</h4>
 		<p>Laboratory works based on Linux Shell Commands and Shell Scripts, Classical IPC problems, Producer consumer problem, Scheduling overview and Batch Systems, Interactive scheduling, FCFS implementation.</p>
+	</li>
+	<li>
+		<h4>CSE 493 Introduction to Bioinformatics [Fall 2021]</h4>
+		<p>Introduction, Molecular Biology concepts, Evolutionary Phylogenetics, Genome Assembly techniques,  Pattern Matching and Genome Compression techniques; Machine Learning in bioinformatics, Feature Extraction, Deep Learning models and applications; Sequence Alignment, Genome Rearrangement, Genome editing. Includes a term project where students work on a bioinformatics problem in groups.</p>
+	</li>
+	<li>
+		<h4>CSE 2233: Theory of Computation [Summer 2021]</h4>
+		<p>Finite Automata: Deterministic finite automata, Non-deterministic finite automata, equivalence and conversion of deterministic and non-deterministic finite automata, pushdown automata. Context free language, context frees grammar. Turing machines: basic machines, configuration, computing with turning machine, combining turning machines.</p>
 	</li>
 	<li>
 		<h4>CSE 3522: Database Management Systems Laboratory [Summer 2021]</h4>

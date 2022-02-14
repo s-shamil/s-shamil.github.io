@@ -21,13 +21,13 @@ nav: true
 	<li>
 		<h4 class="text-primary font-weight-bold">
 			<b>
-				Segmentation of Lung Tumor from CT Images using Deep Supervision
+				Revisiting Segmentation of Lung Tumor from CT Images
 			</b>
 		</h4>
-		<h5 class="text-info h6">Keywords: Lung tumor, CT scan images, deep learning, discrete wavelet transform</h5>
-		<p>Lung cancer is a leading cause of death in most countries of the world. Since prompt diagnosis of tumors can allow oncologists to discern their nature, type and the mode of treatment, tumor detection and segmentation from CT Scan images is a crucial field of study worldwide. This paper approaches lung tumor segmentation by applying two-dimensional discrete wavelet transform (DWT) on the LOTUS dataset for more meticulous texture analysis whilst integrating information from neighboring CT slices before feeding them to a Deeply Supervised MultiResUNet model. Variations in learning rates, decay and optimization algorithms while training the network have led to different dice coefficients, the detailed statistics of which have been included in this paper. We also discuss the challenges in this dataset and how we opted to overcome them. In essence, this study aims to maximize the success rate of predicting tumor regions from two-dimensional CT Scan slices by experimenting with a number of adequate networks, resulting in a dice co-efficient of 0.8472.</p>
+		<h5 class="text-info h6">Keywords: Lung tumor, CT scan images, deep learning, discrete wavelet transform, MultiResUNet.</h5>
+		<p>Lung cancer is a leading cause of death in the world. Since the prompt diagnosis of tumors can allow oncologists to discern their nature, type, and mode of treatment, tumor detection and segmentation from CT scan images is a crucial field of study. This paper approaches lung tumor segmentation by applying two-dimensional discrete wavelet transform (DWT) on the LOTUS dataset (with 31,247 training and 4,458 testing samples) for more meticulous texture analysis while integrating information from neighboring CT slices before feeding them to a Deeply Supervised MultiResUNet model. In essence, our novel contribution has been the combination of including neighboring slices as well as two-dimensional discrete wavelet transform along with the application of deep supervision on the model architecture, which has resulted in an improved dice coefficient of 0.8472. A key characteristic of our approach is avoiding 3D kernels (despite this being a 3D segmentation task), thereby making it quite lightweight.</p>
 		<p><i>Contribution: Co-first author. Planned and designed the pipeline, processed the dataset, implemented and experimented with the deep learning models, analyzed and interpreted the results, drafted the manuscript.</i></p>
-		<p><b>Status: Under review in <a href="https://www.journals.elsevier.com/computers-in-biology-and-medicine">Computers in Biology and Medicine</a>.</b></p>
+		<p><b>Status: Accepted for publication with final revision in <a href="https://www.journals.elsevier.com/computers-in-biology-and-medicine">Computers in Biology and Medicine</a>.</b></p>
 	</li>
 	<li>
 		<h4 class="text-primary font-weight-bold">

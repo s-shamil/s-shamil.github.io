@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I am a fresh graduate with Bachelor of Science from Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology (BUET). I am currently serving as a lecturer at the department of Computer Science and Engineering, United International University, Dhaka.
 
-I have an immense interest in exploring and working on exciting research areas of modern computer science. My research experience includes application of deep learning in the fields of computer vision and bioinformatics, agent-based modeling for infectious disease and analyzing abelian borders of strings. I am also interested to work on problems regarding distributed computing systems.
+I have an immense interest in exploring and working on exciting research areas of modern computer science. My research experience includes application of deep learning in the fields of computer vision and bioinformatics, agent-based modeling for infectious disease and analyzing abelian borders of strings. My future research goal is to design interpretable and privacy-preserving machine learning systems. I am also interested to work on relevant problems in distributed computing environment.
 
 During my undergrad, I started to work with Professor <a href="http://msrahman.buet.ac.bd/">M. Sohel Rahman</a>. I express my gratitude to him for introducing me to research and also for supervising my thesis work.
 
