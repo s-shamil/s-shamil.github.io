@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic_small.jpg
   address: >
-    <p> </p>
+    <p>419B, UIU Campus, United City, Madani Avenue, Badda, Dhaka-1212. </p>
 
 
 news: false  # includes a list of news items
