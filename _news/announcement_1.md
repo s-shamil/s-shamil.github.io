@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-11-28
 inline: true
 ---
 
-A simple inline announcement.
+My first paper titled "An Agent-Based Modeling of COVID-19: Validation, Analysis, and Recommendations" got accepted to the journal "Cognitive Computation"!
