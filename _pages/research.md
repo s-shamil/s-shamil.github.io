@@ -31,6 +31,19 @@ nav: true
 		<p><b>Status: Published in <a href="https://www.springer.com/journal/12559">Cognitive Computation</a>. Read the article <a href="https://link.springer.com/article/10.1007/s12559-020-09801-w">here.</a></b></p>
 	</li>
 	
+
+	<li>
+		<h4 class="text-primary font-weight-bold">
+			<b>
+				An Agent-Based Model of COVID-19 in Bangladesh
+			</b>
+		</h4>
+		<h5 class="text-info h6">Keywords: COVID-19, Infectious disease, Agent-Based Model, Bangladesh</h5>
+		<p>This research project was conducted in collaboration with Aspire to Innovate (<a href="https://a2i.gov.bd/">a2i.gov.bd</a>) to provide the policymakers with insights and forecasts on the spread of COVID-19 in Bangladsh. <a href="/assets/pdf/Letter_of_Certification_for_Fellows.pdf" target="_blank">Click here</a> to view the certificate of recognition.</p>
+		<p>In this project, we developed an agent-based model on top of a compartmental framework, resulting in a hybrid model that offers the best of both worlds – scalability like a compartmental model while preserving some important details on individuals like an agent-based model. We utilized the concept of contact matrix to simulate agent to agent interaction. We validated our model with the actual data and generated predictions on the future of the pandemic in bangladesh. Later we did a retrospective analysis with different levels of interventions. We are currently working on the manuscript.</p>
+		<p><i>Contribution: Implemented the models, planned and designed the experiments, conducted the experiments, analyzed and interpreted the results, drafted the manuscript.</i></p>
+	</li>
+	
 	<li>
 		<h4 class="text-primary font-weight-bold">
 			<b>
