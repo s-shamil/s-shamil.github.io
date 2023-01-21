@@ -2,15 +2,14 @@
 layout: about
 title: about
 permalink: /
-description: PhD student (Computer Science), <br /> School of Computing, NUS.
+description: salman [at] comp.nus.edu [dot] sg
 
 profile:
   align: right
   image: prof_pic_small.jpg
   address: >
     <p> 
-    salman [at] comp.nus.edu [dot] sg
-    AS6-04-11, 11 Computing Dr,
+    AS6-04-11, 11 Computing Dr, <br>
     Singapore, 117416
     </p>
 
