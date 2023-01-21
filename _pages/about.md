@@ -2,14 +2,15 @@
 layout: about
 title: about
 permalink: /
-description: salman [at] comp.nus.edu [dot] sg
+description: <b><i> salman [at] comp.nus.edu [dot] sg </i></b>
 
 profile:
   align: right
   image: prof_pic_small.jpg
   address: >
     <p> 
-    AS6-04-11, 11 Computing Dr, <br>
+    AS6-04-11, <br>
+    11 Computing Dr, <br>
     Singapore, 117416
     </p>
 
