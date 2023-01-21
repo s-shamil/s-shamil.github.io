@@ -59,13 +59,13 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: https://www.researchgate.net/profile/Md-Salman-Shamil # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: https://cse.uiu.ac.bd/profiles/shamil-md-salman/ # work page URL
+work_url: # https://cse.uiu.ac.bd/profiles/shamil-md-salman/ # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 
-contact_note: >
-  You can also email me at <a href="mailto:msshamil.xcp@gmail.com">this address</a>
+# contact_note: >
+#   You can also email me at <a href="mailto:msshamil.xcp@gmail.com">this address</a>
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
