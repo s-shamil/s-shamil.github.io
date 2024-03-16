@@ -3,8 +3,8 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Md Salman
-middle_name:
+first_name: Md
+middle_name: Salman
 last_name: Shamil
 email: salman.shamil@u.nus.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -99,7 +99,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 3
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

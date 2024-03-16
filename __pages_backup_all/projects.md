@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: A list of selected class projects. Click on the the project for brief description.
 nav: true
