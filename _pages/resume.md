@@ -11,8 +11,8 @@ nav: true
 </h3>
  -->
 
-<object data="/assets/pdf/cv.pdf" type="application/pdf" style="min-height:100vh;width:100%">
-    <embed src="/assets/pdf/cv.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/pdf/cv.pdf">Download PDF</a>.</p>
+<object data="{{ site.baseurl }}/assets/pdf/cv.pdf" type="application/pdf" style="min-height:100vh;width:100%">
+    <embed src="{{ site.baseurl }}/assets/pdf/cv.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="{{ site.baseurl }}/assets/pdf/cv.pdf">Download PDF</a>.</p>
     </embed>
 </object>
