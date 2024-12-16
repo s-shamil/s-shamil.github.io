@@ -6,7 +6,7 @@ description:
 nav: false
 ---
 
-We extracted hand poses for <a href="https://epic-kitchens.github.io/2024">EPIC-KITCHENS-100</a> videos using <a href="https://github.com/facebookresearch/frankmocap">FrankMocap</a>. This is part of an ongoing work at <a href="https://cvml.comp.nus.edu.sg/">CVML@NUS</a>.
+We extracted hand poses for <a href="https://epic-kitchens.github.io/2024">EPIC-KITCHENS-100</a> videos using <a href="https://github.com/facebookresearch/frankmocap">FrankMocap</a>.
 
 
 
