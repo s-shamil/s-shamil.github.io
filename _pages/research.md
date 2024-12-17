@@ -48,7 +48,7 @@ nav: true
 			</b>
 		</h4>
 		<h5 class="text-info h6">Keywords: COVID-19, Infectious disease, Agent-Based Model, Bangladesh</h5>
-		<p>This research project was conducted in collaboration with Aspire to Innovate (<a href="https://a2i.gov.bd/">a2i.gov.bd</a>) to provide the policymakers with insights and forecasts on the spread of COVID-19 in Bangladesh. <a href="/assets/pdf/Letter_of_Certification_for_Fellows.pdf" target="_blank">Click here</a> to view the certificate of recognition.</p>
+		<p>This research project was conducted in collaboration with Aspire to Innovate (<a href="https://a2i.gov.bd/">a2i.gov.bd</a>) to provide the policymakers with insights and forecasts on the spread of COVID-19 in Bangladesh. <a href="{{ site.baseurl }}/assets/pdf/Letter_of_Certification_for_Fellows.pdf" target="_blank">Click here</a> to view the certificate of recognition.</p>
 		<p>In this project, we developed an agent-based model on top of a compartmental framework, resulting in a hybrid model that offers the best of both worlds – scalability like a compartmental model while preserving some important details on individuals like an agent-based model. We utilized the concept of contact matrix to simulate agent to agent interaction. We validated our model with the actual data and generated predictions on the future of the pandemic in bangladesh. Later we did a retrospective analysis with different levels of interventions. We are currently working on the manuscript.</p>
 	</li>
 	
