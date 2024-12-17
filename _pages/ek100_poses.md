@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /ek100_poses/
-title: EPIC-KITCHENS-100 Hand Poses
-description: A collection of hand poses extracted from EPIC-KITCHENS-100 using FrankMocap.
+# title: EPIC-KITCHENS-100 Hand Poses
+# description: A collection of hand poses extracted from EPIC-KITCHENS-100 using FrankMocap.
 nav: false
 ---
 
