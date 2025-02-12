@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-12-22
+date: 2024-06-17
 inline: true
 ---
 
-Passed PhD Qualifying Examination (QE)!
+Presented <a href="https://s-shamil.github.io/HandFormer/">HandFormer</a> at the [EgoVis Workshop](https://egovis.github.io/cvpr24/) in CVPR '24.

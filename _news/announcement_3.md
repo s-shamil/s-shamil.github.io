@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-08-01
+date: 2024-03-16
 inline: true
 ---
 
-I have started my PhD in Computer Science at School of Computing, National University of Singapore. Looking forward to the new journey!
+New preprint available <a href="https://s-shamil.github.io/HandFormer/">here</a>!
