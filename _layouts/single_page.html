@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include head.html %}
+  {% include scripts/mathjax.html %}
+</head>
+
+<body class="single-page-layout">
+  <!-- Fixed Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-content">
+      <!-- Profile Section -->
+      <div class="sidebar-profile">
+        {% if site.first_name %}
+          <h2 class="sidebar-name">
+            {{ site.first_name }} 
+            {% if site.middle_name %}<span class="font-weight-bold">{{ site.middle_name }}</span>{% endif %} 
+            {{ site.last_name }}
+          </h2>
+        {% endif %}
+        
+        {% if page.profile and page.profile.image %}
+          <div class="sidebar-image">
+            <img class="profile-img" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="Profile">
+          </div>
+        {% endif %}
+        
+        {% if page.profile and page.profile.address %}
+          <div class="sidebar-address">
+            {{ page.profile.address }}
+          </div>
+        {% endif %}
+        
+        {% if page.description %}
+          <p class="sidebar-description">{{ page.description }}</p>
+        {% endif %}
+      </div>
+      
+      <!-- Navigation -->
+      <nav class="sidebar-nav">
+        <ul>
+          <li><a href="#about" class="nav-link active">About</a></li>
+          <li><a href="#news" class="nav-link">News</a></li>
+          <li><a href="#publications" class="nav-link">Publications</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#teaching" class="nav-link">Teaching</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          {% if site.blog_name %}
+          <li><a href="#blog" class="nav-link">Blog</a></li>
+          {% endif %}
+        </ul>
+      </nav>
+      
+      <!-- Social Links -->
+      {% if page.social %}
+      <div class="sidebar-social">
+        <div class="contact-icons">
+          {% include social.html %}
+        </div>
+      </div>
+      {% endif %}
+      
+      <!-- Theme Toggle -->
+      <div class="sidebar-theme-toggle">
+        <a id="light-toggle" title="Change theme">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </a>
+      </div>
+    </div>
+  </aside>
+  
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- About Section -->
+    <section id="about" class="content-section">
+      <div class="section-content">
+        <!-- <h2 class="section-title">About</h2> -->
+        <div class="about-text">
+          {{ content }}
+        </div>
+      </div>
+    </section>
+    
+    <!-- News Section -->
+    {% if page.news %}
+    <section id="news" class="content-section">
+      <div class="section-content">
+        <h2 class="section-title">News</h2>
+        {% include news.html %}
+      </div>
+    </section>
+    {% endif %}
+    
+    <!-- Publications Section -->
+    <section id="publications" class="content-section">
+      <div class="section-content">
+        <h2 class="section-title">Publications</h2>
+        {% include all_papers.html %}
+      </div>
+    </section>
+    
+    <!-- Projects Section (Research Projects) -->
+    <section id="projects" class="content-section">
+      <div class="section-content">
+        <h2 class="section-title">Projects</h2>
+        <div class="research-content">
+          {% assign research_page = site.pages | where: "title", "Research" | first %}
+          {% if research_page %}
+            {{ research_page.content | markdownify }}
+          {% else %}
+            <p>Research projects and ongoing work will be displayed here.</p>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+    
+    <!-- Teaching Section -->
+    <section id="teaching" class="content-section">
+      <div class="section-content">
+        <h2 class="section-title">Teaching</h2>
+        <div class="teaching-content">
+          {% assign teaching_page = site.pages | where: "title", "Teaching" | first %}
+          {% if teaching_page %}
+            {{ teaching_page.content | markdownify }}
+          {% else %}
+            <p>Teaching experience and courses will be displayed here.</p>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+    
+    <!-- Resume Section -->
+    <section id="resume" class="content-section">
+      <div class="section-content">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-content">
+          {% assign resume_page = site.pages | where: "title", "Resume" | first %}
+          {% if resume_page %}
+            {{ resume_page.content | markdownify }}
+          {% else %}
+            <p>Resume information will be displayed here.</p>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+    
+    <!-- Blog Section -->
+    {% if site.blog_name %}
+    <section id="blog" class="content-section">
+      <div class="section-content">
+        <h2 class="section-title">Latest Blog Posts</h2>
+        <div class="blog-posts">
+          {% for post in site.posts limit:3 %}
+            <article class="blog-post-preview">
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+              <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+              <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+            </article>
+          {% endfor %}
+          <p><a href="{{ '/blog/' | relative_url }}" class="view-all">View all posts →</a></p>
+        </div>
+      </div>
+    </section>
+    {% endif %}
+  </main>
+
+  {% include scripts/bootstrap.html %}
+  {% include scripts/mansory.html %}
+  {% include scripts/misc.html %}
+  
+  <!-- Single Page Navigation Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Smooth scrolling for navigation links
+      const navLinks = document.querySelectorAll('.sidebar-nav a[href^="#"]');
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          const targetSection = document.getElementById(targetId);
+          if (targetSection) {
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+      
+      // Update active nav link on scroll
+      const sections = document.querySelectorAll('.content-section');
+      const navItems = document.querySelectorAll('.sidebar-nav a');
+      
+      function updateActiveNav() {
+        let current = '';
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          if (window.pageYOffset >= sectionTop - 100) {
+            current = section.getAttribute('id');
+          }
+        });
+        
+        navItems.forEach(item => {
+          item.classList.remove('active');
+          if (item.getAttribute('href') === '#' + current) {
+            item.classList.add('active');
+          }
+        });
+      }
+      
+      window.addEventListener('scroll', updateActiveNav);
+    });
+  </script>
+</body>
+</html>

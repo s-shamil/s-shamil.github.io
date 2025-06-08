@@ -57,15 +57,14 @@ orcid_id: 0000-0001-5556-1145 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: https://www.researchgate.net/profile/Md-Salman-Shamil # your profile on ResearchGate
+research_gate_profile: # https://www.researchgate.net/profile/Md-Salman-Shamil # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: # https://cse.uiu.ac.bd/profiles/shamil-md-salman/ # work page URL
+work_url: https://cse.uiu.ac.bd/faculty/md-salman-shamil/ # your work URL, e.g. faculty page
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 
-# contact_note: >
-#   You can also email me at <a href="mailto:msshamil.xcp@gmail.com">this address</a>
+# contact_note: > # a note to display in the contact section, e.g. "Feel free to contact me via email or Twitter."
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
@@ -151,8 +150,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Shamil
+  first_name: [Md Salman, Salman]
 
   style: vancouver
   locale: en

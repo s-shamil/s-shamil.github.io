@@ -1,18 +1,36 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Chatterjee":
+  - firstname: ["Dibyadip"]
+    url: https://dibschat.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Sener":
+  - firstname: ["Fadime"]
+    url: https://fadimesener.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Ma":
+  - firstname: ["Shugao"]
+    url: https://scholar.google.com/citations?user=SUd2LJUAAAAJ&hl=en
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Yao":
+  - firstname: ["Angela"]
+    url: https://www.comp.nus.edu.sg/~ayao/
+
+"Farheen":
+  - firstname: ["Farhanaz"]
+    url: https://scholar.google.com/citations?user=nQMZRv8AAAAJ&hl=en
+
+"Ibtehaz":
+  - firstname: ["Nabil"]
+    url: https://sites.google.com/view/nibtehaz/
+
+"Khan":
+  - firstname: ["Irtesam Mahmud", "Irtesam", "I. M."]
+    url: https://irtesamweb.github.io/
+
+"Rahman":
+  - firstname: ["M Sohel", "M. Sohel"]
+    url: https://msrahman.buet.ac.bd/
+
+"Habib":
+  - firstname: ["Mursalin"]
+    url: https://mh7111997.github.io/

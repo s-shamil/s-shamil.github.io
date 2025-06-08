@@ -1,17 +1,17 @@
 ---
-layout: about
+layout: single_page
 title: about
 permalink: /
 description: <b><i> salman.shamil [at] u.nus [dot] edu </i></b>
 
 profile:
   align: right
-  image: prof_pic_small.jpg
+  image: prof_pic_small.jpg # profile_photo.jpeg
   address: >
     <p> 
-    AS6-04-11, <br>
-    11 Computing Dr, <br>
-    Singapore, 117416
+    Office: 719(A), PABX: 7104 <br>
+    UIU, United City, <br>
+    Madani Avenue, Dhaka 1212 
     </p>
 
 
@@ -20,10 +20,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I am a graduate student at the <a href="https://www.comp.nus.edu.sg/">School of Computing</a>, National University of Singapore and a lecturer (on study leave) at <a href="https://cse.uiu.ac.bd/">United International University, Dhaka</a>. I am working with Prof. <a href="https://www.comp.nus.edu.sg/~ayao/">Angela Yao</a> in the <a href="https://cvml.comp.nus.edu.sg/">CVML@NUS</a> lab. My current research focus is utilizing hand pose data for action recognition and video understanding. 
+Hi, I am a lecturer at the Dept. of CSE, <a href="https://cse.uiu.ac.bd/">United International University (UIU)</a>, Dhaka. I graduated with a <b>Master of Science</b> (Research) from School of Computing, <a href="https://nus.edu.sg/">National University of Singapore (NUS)</a> in 2025. During my time at NUS, I worked with Prof. <a href="https://www.comp.nus.edu.sg/~ayao/">Angela Yao</a> in the <a href="https://cvml.comp.nus.edu.sg/">CVML@NUS</a> lab, focusing on the utilization of 3D hand poses for multimodal action recognition. Previously, I completed my <b>Bachelor of Science</b> from the Dept. of CSE, <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology (BUET)</a> in 2021, where I worked with Prof. <a href="http://msrahman.buet.ac.bd/">M. Sohel Rahman</a> on computer vision for medical images. We also worked on agent-based modeling for infectious diseases. Before beginning my MSc in August 2022, I spent one and a half years as a lecturer in the same department of my current institution.
 
-I completed my Bachelor of Science from the <a href="https://cse.buet.ac.bd/">Department of CSE</a>, Bangladesh University of Engineering and Technology (BUET) in February 2021. As part of my undergrad thesis, I worked with Professor <a href="http://msrahman.buet.ac.bd/">M. Sohel Rahman</a> on computer vision for medical images. We also worked on agent-based modeling for infectious diseases. After graduating, I served as a lecturer at the Computer Science and Engineering department, United International University, Dhaka.
-
+I am broadly interested in computer vision research, including 3D video understanding and healthcare applications.
 
 
 <!-- <p style="font-size:18px; font-family:'Libre Baskerville'"><i><b>P.S. </b>You can use "Salman" only as my first name</i></p> -->

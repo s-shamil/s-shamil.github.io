@@ -1,0 +1,43 @@
+# News items - most recent first
+# Each item should have:
+# - date: YYYY-MM-DD format
+# - content: The news text (can include HTML)
+
+- date: 2025-05-31
+  content: 'Officially graduated with M.Sc. (Research) from [NUS](https://www.nus.edu.sg/). '
+
+- date: 2025-01-24
+  content: 'Submitted my masters thesis. I will join back to [UIU](https://www.uiu.ac.bd/) in February.'
+
+- date: 2024-09-28
+  content: 'Attending [ECCV 2024](https://eccv2024.ecva.net/Conferences/2024) in Milan to present <a href="https://s-shamil.github.io/HandFormer/">HandFormer</a>. Will also be at the [HANDS Workshop](https://hands-workshop.org/workshop2024.html).'
+
+- date: 2024-07-01
+  content: '<a href="https://s-shamil.github.io/HandFormer/">HandFormer</a> is accepted to [ECCV 2024](https://eccv2024.ecva.net/Conferences/2024) main conference.'
+
+- date: 2024-06-17
+  content: 'Attending [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024) in Seattle. Will present <a href="https://s-shamil.github.io/HandFormer/">HandFormer</a> at the [EgoVis Workshop](https://egovis.github.io/cvpr24/).'
+
+- date: 2024-08-14
+  content: 'Check out [HandFormer](https://s-shamil.github.io/HandFormer/) preprint. We leverage 3D hand poses for efficient action recognition. <a href="https://arxiv.org/abs/2403.09805" target="_blank" style="background: #20b2aa; color: white; padding: 3px 6px; border-radius: 4px; text-decoration: none; white-space: nowrap;"><i class="fas fa-external-link-alt"></i>arXiv</a>'
+
+- date: 2023-01-01
+  content: 'Started working with Prof. [Angela Yao](https://www.comp.nus.edu.sg/~ayao/) at [CVML@NUS](https://cvml.comp.nus.edu.sg/) on efficient action recognition.'
+
+- date: 2022-08-08
+  content: 'Joined [NUS](https://www.nus.edu.sg/) as a graduate student in the [School of Computing](https://www.comp.nus.edu.sg/). I will be on a study leave from [UIU](https://www.uiu.ac.bd/).'
+
+- date: 2022-03-07
+  content: 'UG thesis on lung tumor segmentation got accepted to [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine). <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010482522001779" target="_blank" style="background: #20b2aa; color: white; padding: 3px 6px; border-radius: 4px; text-decoration: none; white-space: nowrap;"><i class="fas fa-external-link-alt"></i> Link</a>'
+
+- date: 2022-03-06
+  content: 'Joined the [Dept. of CSE, UIU](https://cse.uiu.ac.bd/) as a Lecturer.'
+
+- date: 2021-02-27
+  content: 'Graduated with B.Sc.Engg. (Honours) from [CSE, BUET](https://cse.buet.ac.bd/).'
+
+- date: 2021-02-19
+  content: 'ABM for COVID-19 now available online. <a href="https://link.springer.com/article/10.1007/s12559-020-09801-w" target="_blank" style="background: #20b2aa; color: white; padding: 3px 6px; border-radius: 4px; text-decoration: none; white-space: nowrap;"><i class="fas fa-external-link-alt"></i> Link</a>'
+
+- date: 2020-11-30
+  content: 'Our work on [Agent-Based Modeling (ABM) for COVID-19](https://link.springer.com/article/10.1007/s12559-020-09801-w) got accepted to [Cognitive Computation](https://link.springer.com/journal/12559).'

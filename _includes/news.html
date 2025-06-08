@@ -1,22 +1,16 @@
 <div class="news">
-  <h2><FONT COLOR="blue">News</FONT></h2>
-  {% if site.news  %}
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-      {% assign news = site.news | reverse %}
-      {% for item in news limit: site.news_limit %}
-        <tr>
-          <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-          <td>
-            {% if item.inline %}
-              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-            {% else %}
-              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
-          </td>
-        </tr>
-      {% endfor %}
-      </table>
+  {% if site.data.news %}
+    <div class="news-container">
+      <ul class="news-list">
+        {% for item in site.data.news %}
+          <li class="news-item">
+            <span class="news-date">[{{ item.date | date: "%b %Y" }}]</span>
+            <span class="news-content">
+              {{ item.content | markdownify | remove: '<p>' | remove: '</p>' | emojify }}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   {% else %}
     <p>No news so far...</p>
