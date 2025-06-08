@@ -33,9 +33,14 @@
 
 
 <!-- Fonts & Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ site.fontawesome.version }}/css/all.min.css"  integrity="{{ site.fontawesome.integrity }}" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/{{ site.academicons.version }}/css/academicons.min.css" integrity="{{ site.academicons.integrity }}" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ site.fontawesome.version }}/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="{{ site.fontawesome.integrity }}" crossorigin="anonymous">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ site.fontawesome.version }}/css/all.min.css" integrity="{{ site.fontawesome.integrity }}" crossorigin="anonymous"></noscript>
+
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/{{ site.academicons.version }}/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="{{ site.academicons.integrity }}" crossorigin="anonymous">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/{{ site.academicons.version }}/css/academicons.min.css" integrity="{{ site.academicons.integrity }}" crossorigin="anonymous"></noscript>
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"></noscript>
 
 <!-- Code Syntax Highlighting -->
 <link rel="stylesheet" href="{{ '/assets/css/github.css' | relative_url }}" />
@@ -47,13 +52,31 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
-<!-- JQuery -->
-{% include scripts/jquery.html %}
+<!-- Critical CSS for immediate rendering -->
+<style>
+/* Sidebar animation - critical for immediate loading */
+.sidebar {
+  transition: transform 0.3s ease-in-out;
+  will-change: transform;
+}
 
-<!-- Theming-->
+/* Prevent layout shift during font loading */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+</style>
+
+<!-- Theming - load immediately for proper dark mode -->
 {% if site.enable_darkmode %}
-<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
+<script>
+// Inline critical theme detection to prevent flash
+(function() {
+  const theme = localStorage.getItem('theme') || 'light';
+  if (theme === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+</script>
 {% endif %}
 
 {% if site.enable_google_analytics %}

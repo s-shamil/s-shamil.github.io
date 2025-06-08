@@ -1,0 +1,3 @@
+# Sass configuration to suppress deprecation warnings
+--quiet-deps
+--silence-deprecation=import

@@ -24,6 +24,14 @@
 
   </body>
 
+  <!-- Load scripts after content for faster initial render -->
+  {% include scripts/jquery.html %}
+  
+  {% if site.enable_darkmode %}
+  <script defer src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
+  {% endif %}
+
   {% include scripts/bootstrap.html %}
   {% include scripts/mansory.html %}
   {% include scripts/misc.html %}
