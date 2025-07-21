@@ -11,7 +11,7 @@
   Md Salman  Shamil
 
 
-  | blog
+  | CRISPR/Cas9 on-target knockout efficacy prediction
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -41,7 +41,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎲</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/1_project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -105,8 +105,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -212,56 +210,115 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">CRISPR/Cas9 on-target knockout efficacy prediction</h1>
+    <p class="post-description">A project under Machine Learning Sessional course using traditional machine learning with sequence-based properties and deep learning techniques.</p>
+  </header>
 
+  <article>
+    <p>Based on the work done by <a href="https://www.nature.com/articles/s41467-019-12281-8">Wang et al.</a>, we implemented and experimented with some deep learning models to deal with the problem regarding CRISPR/Cas9 on-target knockout efficacy. We used the dataset provided by the above mentioned paper. During the experimentation phase, we implemented several deep learning models including CNN, LSTM, GRU, Bidirectional LSTM, Bidirectional LSTM with attention, Hierarchical Attention Networks (HAN) etc. This project focuses on using only the sequence as input without manually preparing any epigenetic feature beforehand.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">May 22, 2021</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-  </ul>
+<p>Before training the models, we had to encode the sgRNA sequences. We used two different methods on the sgRNA sequences: one-hot encoding and word embedding using Word2Vec. Then we trained the deep-learning models and evaluated the performances using Spearman correlation coefficient. At the time of this implementation, there were two papers who used the same dataset. Their achieved Spearman correlation coefficients are stated in the follwing table.</p>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<table class="table table-sm">
+   <thead>
+      <th></th>
+      <th>WT-SpCas9</th>
+      <th>eSpCas9</th>
+      <th>SpCas9-HF1</th>
+   </thead>
+   <tr>
+      <td><a href="https://www.nature.com/articles/s41467-019-12281-8">DeepHF</a></td>
+      <td>0.867</td>
+      <td>0.862</td>
+      <td>0.86</td>
+   </tr>
+   <tr>
+      <td><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-3531-9">CRISPRPred(SEQ)</a></td>
+      <td>0.838</td>
+      <td>0.83</td>
+      <td>0.821</td>
+   </tr>
+</table>
 
+<p>A summary of the results we obtained through our experiments can be found in the following table.</p>
 
+<table class="table table-sm">
+   <tr>
+      <td>Preprocessing technique &amp; Model</td>
+      <td>Cas9 type</td>
+      <td>Cross validation score avg</td>
+      <td>Test score with best fold</td>
+   </tr>
+   <tr>
+      <td rowspan="3" style="vertical-align: middle;">One hot encoding and CNN (Total params: 64,585)</td>
+      <td>WT-SpCas9</td>
+      <td>0.8202634655</td>
+      <td>0.8242259448</td>
+   </tr>
+   <tr>
+      <td>eSpCas9</td>
+      <td>0.8029278236</td>
+      <td>0.8003575945</td>
+   </tr>
+   <tr>
+      <td>SpCas9-HF1 </td>
+      <td>0.7937839469</td>
+      <td>0.7853817265</td>
+   </tr>
+   <tr>
+      <td rowspan="3" style="vertical-align: middle;">One hot encoding &amp; CRNNCrispr seq branch only (Total params: 968,273)</td>
+      <td>WT-SpCas9</td>
+      <td>0.8326987799</td>
+      <td>0.8383132948</td>
+   </tr>
+   <tr>
+      <td>eSpCas9</td>
+      <td>0.8168465796</td>
+      <td>0.8180295835</td>
+   </tr>
+   <tr>
+      <td>SpCas9-HF1 </td>
+      <td>0.8174757287</td>
+      <td>0.813113697</td>
+   </tr>
+   <tr>
+      <td rowspan="3" style="vertical-align: middle;">Word embedding &amp; BiLSTM(Attention) (Total params: 170,635)</td>
+      <td>WT-SpCas9</td>
+      <td>0.8409261036</td>
+      <td>0.8463582093</td>
+   </tr>
+   <tr>
+      <td>eSpCas9</td>
+      <td>0.8258162304</td>
+      <td>0.822620635</td>
+   </tr>
+   <tr>
+      <td>SpCas9-HF1 </td>
+      <td>0.836215959</td>
+      <td>0.8359173926</td>
+   </tr>
+   <tr>
+      <td rowspan="3" style="vertical-align: middle;">Word embedding &amp; Hierarchical Attention Networks (Total params: 547,678)</td>
+      <td>WT-SpCas9</td>
+      <td>0.8436791472</td>
+      <td>0.847940327</td>
+   </tr>
+   <tr>
+      <td>eSpCas9</td>
+      <td>0.8217506609</td>
+      <td>0.8185988637</td>
+   </tr>
+   <tr>
+      <td>SpCas9-HF1 </td>
+      <td>0.8323302035</td>
+      <td>0.8303764046</td>
+   </tr>
+</table>
+
+<p>Our deep learning models did well as we can see from the results on the test set. But still it could not beat DeepHF. Due to time constraint of the course, we had to limit our experiments. More experiments with models and their hyperparameter tuning could be done to find out if it is possible for a sequence-only model to do as good as the models which utilize epigenetic features too.</p>
+
+  </article>
 
 </div>
 
