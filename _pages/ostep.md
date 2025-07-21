@@ -3,8 +3,7 @@ layout: page
 permalink: /ostep/
 title: CSE4509
 description: Operating Systems Slides by Salman Shamil for CSE 4509 at UIU.
-nav: true
-nav_order: 6
+nav: false
 ---
 
 <div class="ostep-container">
@@ -15,11 +14,8 @@ nav_order: 6
   </p>
 
   <div class="slides-grid">
-    {% assign ostep_path = "/assets/pdf/OSTEP_slides/" %}
     {% for slide in site.static_files %}
-      {% if slide.path contains ostep_path and slide.extname == ".pdf" %}
-        {% assign relative_path = slide.path | remove: ostep_path %}
-        {% unless relative_path contains "/" %}
+      {% if slide.path contains "/assets/pdf/OSTEP_slides/" and slide.extname == ".pdf" %}
         <div class="slide-card">
           <div class="slide-preview">
             <a href="{{ slide.path | relative_url }}" target="_blank" class="slide-link">
@@ -51,7 +47,6 @@ nav_order: 6
             </a>
           </div>
         </div>
-        {% endunless %}
       {% endif %}
     {% endfor %}
   </div>
