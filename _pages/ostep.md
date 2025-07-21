@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /ostep/
-title: CSE4509
+title: OS Slides
 description: Operating Systems Slides by Salman Shamil for CSE 4509 at UIU.
 nav: false
 ---
