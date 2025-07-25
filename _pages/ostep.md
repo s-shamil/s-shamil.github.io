@@ -15,7 +15,8 @@ nav: false
 
   <div class="slides-grid">
     {% for slide in site.static_files %}
-      {% if slide.path contains "/assets/pdf/OSTEP_slides/" and slide.extname == ".pdf" %}
+      {% assign fullpath = "/assets/pdf/OSTEP_slides/" | append: slide.name %}
+      {% if slide.path == fullpath and slide.extname == ".pdf" %}
         <div class="slide-card">
           <div class="slide-preview">
             <a href="{{ slide.path | relative_url }}" target="_blank" class="slide-link">
