@@ -3,6 +3,156 @@
 <head>
   {% include head.html %}
   {% include scripts/mathjax.html %}
+  <style>
+    /* Basic sidebar styles to ensure visibility */
+    .sidebar {
+      background: var(--global-bg-color, #fff);
+      border: 1px solid var(--global-divider-color, #e9ecef);
+    }
+    
+    .sidebar-content {
+      padding: 1rem;
+    }
+    
+    .sidebar-profile {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    
+    .sidebar-nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .sidebar-nav a {
+      text-decoration: none;
+      color: var(--global-text-color, #333);
+    }
+    
+    /* Mobile responsive styles - improved colors */
+    @media (max-width: 768px) {
+      .sidebar {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        margin-bottom: 1rem !important;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        transform: none !important;
+        background: var(--global-bg-color, #fff) !important;
+        border: 1px solid var(--global-divider-color, #e9ecef) !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      
+      .sidebar-content {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        padding: 1rem !important;
+      }
+      
+      .sidebar-profile {
+        display: block !important;
+        visibility: visible !important;
+        padding: 0.75rem !important;
+        border-bottom: 1px solid var(--global-divider-color, #e9ecef);
+        margin-bottom: 1rem;
+      }
+      
+      .sidebar-nav {
+        display: block !important;
+        visibility: visible !important;
+        padding: 0.5rem !important;
+      }
+      
+      .main-content {
+        margin-left: 0 !important;
+      }
+      
+      .sidebar-nav ul {
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.25rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      .sidebar-nav li {
+        margin-bottom: 0;
+      }
+      
+      .sidebar-nav a {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+        background: transparent;
+        color: var(--global-text-color, #333);
+        border: 1px solid var(--global-divider-color, #e9ecef);
+        border-radius: 20px;
+        transition: all 0.2s ease;
+        font-weight: 500;
+      }
+      
+      .sidebar-nav a:hover,
+      .sidebar-nav a.active {
+        background: var(--global-theme-color, #007bff);
+        color: white;
+        border-color: var(--global-theme-color, #007bff);
+      }
+      
+      .profile-img {
+        width: 70px !important;
+        height: 70px !important;
+      }
+      
+      .sidebar-name {
+        font-size: 1.1rem !important;
+        margin-bottom: 0.5rem !important;
+      }
+      
+      .sidebar-address {
+        font-size: 0.8rem !important;
+        margin-bottom: 0.5rem !important;
+      }
+      
+      .sidebar-description {
+        font-size: 0.85rem !important;
+        margin-bottom: 0.5rem !important;
+      }
+      
+      .sidebar-social {
+        text-align: center;
+        margin: 0.75rem 0;
+      }
+      
+      .sidebar-theme-toggle {
+        text-align: center;
+        margin-top: 0.75rem;
+      }
+    }
+    
+    /* Extra small screens */
+    @media (max-width: 480px) {
+      .sidebar-nav ul {
+        gap: 0.2rem;
+      }
+      
+      .sidebar-nav a {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.8rem;
+      }
+      
+      .profile-img {
+        width: 60px !important;
+        height: 60px !important;
+      }
+      
+      .sidebar-name {
+        font-size: 1rem !important;
+      }
+    }
+  </style>
 </head>
 
 <body class="single-page-layout">
