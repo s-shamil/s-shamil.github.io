@@ -51,6 +51,11 @@ nav: false
       {% endif %}
     {% endfor %}
   </div>
+
+  <h6>
+    <br><br>
+    Some sample questions from previous trimesters are <a href="https://drive.google.com/drive/folders/1omUQj0Yhltbl0pKHLdfxGRjhhHKgHVK3?usp=sharing" target="_blank">available here</a>.
+  </h6>
 </div>
 
 <style>
