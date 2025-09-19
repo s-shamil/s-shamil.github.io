@@ -12,8 +12,8 @@ nav: false
   </p>
 
   <ul>
-    <li>CSE 115 + 115L: <a href="https://drive.google.com/drive/folders/1EcdT3b_NwwLA2i96aD_lyREekx2qLHoL?usp=sharing" target="_blank">Programming Language I (+Lab)</a></li>
-    <li>CSE 273: <a href="https://drive.google.com/drive/folders/1TznqZmF7WhXaGoDPeH_axRiAC7tWBkpZ?usp=sharing" target="_blank">Theory of Computation</a></li>
+    <li>CSE 115 + 115L: <a href="https://drive.google.com/drive/folders/1nwdXc6wWzjGUyLcQRNip6TLV0KvUkNhy?usp=sharing" target="_blank">Programming Language I (+Lab)</a></li>
+    <li>CSE 273: <a href="https://drive.google.com/drive/folders/1xZQDjLPW-E4Q2VSmnJhea45N6dlaPqeG?usp=sharing" target="_blank">Theory of Computation</a></li>
   </ul>
 </div>
 
