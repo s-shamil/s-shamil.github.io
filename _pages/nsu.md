@@ -14,6 +14,7 @@ nav: false
   <ul>
     <li>CSE 115 + 115L: <a href="https://drive.google.com/drive/folders/1nwdXc6wWzjGUyLcQRNip6TLV0KvUkNhy?usp=sharing" target="_blank">Programming Language I (+Lab)</a></li>
     <li>CSE 273: <a href="https://drive.google.com/drive/folders/1xZQDjLPW-E4Q2VSmnJhea45N6dlaPqeG?usp=sharing" target="_blank">Theory of Computation</a></li>
+    <li>CSE 323: <a href="https://s-shamil.github.io/ostep/" target="_blank">Operating System Design</a></li>
   </ul>
 </div>
 
