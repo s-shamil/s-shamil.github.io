@@ -3,6 +3,9 @@
 # - date: YYYY-MM-DD format
 # - content: The news text (can include HTML)
 
+- date: 2025-09-15
+  content: 'Joined [North South University](https://www.northsouth.edu/) as a Lecturer in the Dept. of ECE.'
+
 - date: 2025-05-31
   content: 'Officially graduated with M.Sc. (Research) from [NUS](https://www.nus.edu.sg/). '
 

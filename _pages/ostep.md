@@ -2,12 +2,12 @@
 layout: page
 permalink: /ostep/
 title: OS Slides
-description: Operating Systems Slides by Salman Shamil for CSE 4509 at UIU.
+description: Operating System Design Slides by Salman Shamil for CSE 323 at NSU.
 nav: false
 ---
 
 <div class="ostep-container">
-  <h2>CSE 4509: Operating Systems</h2>
+  <h2>CSE 323: Operating System Design</h2>
   <p class="description">
     This page contains lecture slides for the Operating Systems course based on the 
     <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/" target="_blank">OSTEP book</a> by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau.
@@ -52,10 +52,13 @@ nav: false
     {% endfor %}
   </div>
 
-  <h6>
+  <!-- Sample Questions -->
+  <!-- <h6>
     <br><br>
     Some sample questions from previous trimesters are <a href="https://drive.google.com/drive/folders/1omUQj0Yhltbl0pKHLdfxGRjhhHKgHVK3?usp=sharing" target="_blank">available here</a>.
-  </h6>
+  </h6> -->
+
+
 </div>
 
 <style>
