@@ -22,10 +22,10 @@ nav: true
       <h4 style="color: #495057; margin-bottom: 10px;">Curriculum Vitae</h4>
       <p style="color: #6c757d; margin-bottom: 25px; max-width: 300px;">Click the buttons below to view or download my CV.</p>
       <div style="display: flex; gap: 15px;">
-        <a href="/assets/pdf/cv_msshamil_full.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
+        <a href="/assets/pdf/cv_msshamil.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
           <i class="fas fa-eye"></i> Quick View
         </a>
-        <a href="/assets/pdf/cv_msshamil_full.pdf" download class="btn btn-primary btn-sm">
+        <a href="/assets/pdf/cv_msshamil.pdf" download class="btn btn-primary btn-sm">
           <i class="fas fa-download"></i> Download
         </a>
       </div>
