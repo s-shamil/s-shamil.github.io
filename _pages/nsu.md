@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /nsu/
-title: NSU Spring 2026
+title: NSU Summer 2026
 description: Course Materials
 nav: false
 ---
 
 <div class="nsu-container">
   <p class="description">
-    This page contains lecture slides and other materials for courses taught at North South University by <a href="https://s-shamil.github.io/" target="_blank">Salman Shamil [SMSL]</a>.
+    Lecture slides and other materials for courses taught at North South University by <a href="https://s-shamil.github.io/" target="_blank">Salman Shamil [SMSL]</a>.
   </p>
 
   <ul>
